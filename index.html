@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Hangman</h1>
+    <p class="subtitle">Find the hidden word - Enter a letter</p>
+    <div class="container">
+        <div class="hangman_container">
+            <div id="div_right_leg" class="div_style"></div>
+            <div id="div_left_leg" class="div_style"></div>
+            <div id="div_right_hand" class="div_style"></div>
+            <div id="div_left_hand" class="div_style"></div>
+            <div id="div_body" class="div_style"></div>
+            <div id="div_circle" class="div_style"></div>
+            <div id="div_down_small" class="div_style"></div>
+            <div id="div_right" class=" div_style"></div>
+            <div id="div_stick" class="div_style"></div>
+            <div id="div_down" class="div_style"></div>
+        </div>
+        <div id="wrong" class="wrong">Wrong</div>
+        <div id="wrongLetters" class="wrong_letters">f, f, h, s</div>
+        <div id="lettersContainer" class="letters_container">
+        </div>
+        <div id="endGame" class="end_game">
+            <div class="text">Unfortunately you lost. 😕</div>
+            <button id="btn">Play Again</button>
+        </div>
+        <div id="notification" class="notification">You have already entered this letter</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
